@@ -26,7 +26,7 @@ class Triangle
   def valid 
     real = [(s1 + s2 > s3), (s3 + s2 > s1), (s1 + s3 > s2)]
   [s1, s2, s3].each {|s| real << false if s<=0  }
-  
+  raise TriangleError if real.include?(false)
   end
 
 
