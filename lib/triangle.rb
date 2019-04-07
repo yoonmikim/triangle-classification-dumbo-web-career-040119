@@ -24,6 +24,7 @@ class Triangle
   end
 
   def valid 
+    real = []
   end
 
 
