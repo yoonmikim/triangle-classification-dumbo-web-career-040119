@@ -9,6 +9,7 @@ class Triangle
   end
   
   def kind 
+    valid
     if s1 == s2 && s2 == s3 && s1 > 0
       :equilateral
     elsif (s1 == s2 || s2 == s3 ||
@@ -20,6 +21,9 @@ class Triangle
     else
       TriangleError
     end
+  end
+
+  def valid 
   end
 
 
