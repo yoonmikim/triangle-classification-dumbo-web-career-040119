@@ -9,7 +9,11 @@ class Triangle
   end
   
   def kind 
-    
+    if s1 == s2 == s3 && s1 > 0
+      :equilateral
+    elsif s1
+    else
+    end
   end
 
 
