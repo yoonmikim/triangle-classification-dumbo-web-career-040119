@@ -24,7 +24,7 @@ class Triangle
   end
 
   def valid 
-    real = []
+    real = [(s1 + s2 > s3), ]
   end
 
 
